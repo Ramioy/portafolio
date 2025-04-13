@@ -2,17 +2,79 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
   <title>Portafolio de Yoimar</title>
 </head>
 
-<body>
-  <header></header>
-  <main>
-    <h1>En construcción</h1>
+<body class="full-width flex flex-column">
+
+  <header class="bh full-width flex flex-row fixed transition-300ms">
+
+    <div class="bh-d1 flex flex-row">
+      <img 
+        class="bh-d1-logo pointer transition-300ms"
+        src="./images/Header/logo.png" 
+        alt="image logo" 
+        title="Un buen logo" 
+      />
+      <span class="bh-d1-span">Ramioy Letreb</span>
+    </div>
+
+    <div class="bh-d2 flex flex-column">
+      <nav class="bh-d2-nav flex flex-row">
+        <li class="bh-d2-nav-li flex flex-column pointer transition-300ms">Sobre mí</li>
+        <li class="bh-d2-nav-li flex flex-column pointer transition-300ms">Proyectos</li>
+        <li class="bh-d2-nav-li flex flex-column pointer transition-300ms">Habilidades</li>
+        <li class="bh-d2-nav-li flex flex-column pointer transition-300ms">Trayectoria</li>
+      </nav>
+    </div>
+
+  </header>
+  <main class="bm full-width full-height flex flex-column">
+
+    <section id="bm-s1" class="full-width flex flex row"> 
+
+      <article class="bm-s1-ar1 flex flex-column">
+        <span class="bm-s1-ar1-span">¡Hola!</span>
+        <h1 class="bm-s1-ar1-h1">Soy Ramioy</h1>
+        <h2 class="bm-s1-ar1-h2">Ingeniero de Sistemas</h2>
+      </article>
+
+      <article class="bm-s1-ar2 flex flex-column rounded">
+        <div class="bm-s1-ar2-d flex flex-column rounded">
+          <img 
+            class="bm-s1-ar2-d-img rounded"
+            src="./images/Main/me.jpg" 
+            alt="imagen de ramioy" 
+            title="Este soy yo... mas o menos"
+          />
+        </div>
+      </article>
+
+    </section>
+
+    <section id="bm-s2">
+     <h2>En construcción...</h2>
+    </section>
+
+    <section id="bm-s3">
+       <!--Proyectos-->
+    </section>
+
+    <section id="bm-s4">
+       <!--Habilidades-->
+    </section>
+
+    <section id="bm-s4">
+       <!--Trayectoria-->
+    </section>
+
   </main>
   <footer></footer>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
