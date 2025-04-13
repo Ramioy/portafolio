@@ -70,7 +70,7 @@ html {
 }
 
 .full-height {
-  height: 80vh;
+  height: 100vh;
 }
 
 .pointer {
@@ -139,6 +139,7 @@ body > .bh:hover {
 body > main.bm {
   padding: var(--padding-1rem);
   margin-top: 90px;
+  height: auto;
 }
 
 body > main.bm > section#bm-s1 > .bm-s1-ar1 {
@@ -221,12 +222,17 @@ body > main.bm > section#bm-s4 {
 
   body > header.bh {
     justify-content: center;
+    align-content: center;
     align-items: center;
   }
 
   body > main.bm > section#bm-s1 > .bm-s1-ar1 {
     align-items: center;
     text-align: center;
+  }
+
+  body > main.bm > section#bm-s1 > .bm-s1-ar1 > h1.bm-s1-ar1-h1 {
+    font-size: 7rem;
   }
 
 }
